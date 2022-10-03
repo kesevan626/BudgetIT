@@ -1,0 +1,48 @@
+.error{
+    border: 1px solid red;
+}
+.content{
+    .middle{
+        form{
+            width: 100%;
+            margin-top: 20px;
+            .form-group{
+                label{
+                    font-size: 20px;
+                    color: var(--text-black);
+                    font-family: Roboto, sans-serif;
+                }
+                .form-control{
+                    width: 90%;
+                    padding: 15px;
+                    margin-bottom: 10px;
+                    float: left;
+                    margin-left: 0px;
+                    outline: none;
+                    border: 1px solid transparent;
+                    border-radius: 8px;
+                    background-color: var(--card-background);
+                }
+            }
+        }
+        .product-content-list{
+            h2{
+                font-size: 20px;
+                padding: 10px;
+                font-weight: 300;
+                color: var(--text-white);
+                font-family: Roboto, sans-serif;
+            }
+            table{
+                tbody{
+                    tr{
+                        &:hover{
+                            transform: scale(1);
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+}
