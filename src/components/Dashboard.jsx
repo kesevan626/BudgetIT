@@ -11,7 +11,6 @@ const Dashboard = () => {
         <div className="header">
           <div style={{display: 'flex', alignItems: 'center', gap: '15px'}}>
             <MdLineWeight style={{fontSize: '20px', color: 'var(--text-black)'}} onClick={handleSideBar}/>
-            <h3>Dashboard</h3>
           </div>
             <input type="date" name="" id="" />
         </div>
